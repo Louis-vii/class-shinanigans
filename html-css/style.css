@@ -1,0 +1,25 @@
+#p1{
+  color : cyan ;
+  font-size : 40px
+}
+
+#p2{
+  color :darkblue ; 
+  font-size : 25px ;
+}
+#p3{
+  color :pink ;
+  font-size : 25px; 
+}
+#body1 {
+  background-color :black ;
+}
+#body2 {
+}
+#ul{
+  color : darkred;
+  font-size : 25px ; 
+}
+img{
+border: 25px solid red ;
+}

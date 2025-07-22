@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./manim/manimations"
+    ],
+    "dotnet.defaultSolution": "c##.sln"
+}

@@ -1,0 +1,71 @@
+.body1{
+  background-color : lightpink ; 
+}
+.abdo{
+  display : flex ;
+  gap : 20px ;
+  border: 10px solid black   ;
+  margin: 0 auto;
+  width :70% ;
+}
+.text1{
+  font-size : 25px ; 
+  color :black ; 
+}
+.body2{
+  background-color : lightyellow  ; 
+}
+.ali{
+  display : flex ;
+  gap : 20px ;
+  border: 10px solid black   ;
+  margin: 0  auto ;
+  width :70% ;
+}
+.text2{
+  font-size : 25px ; 
+  color :black ; 
+}
+.body3{
+  background-color :darksalmon ; 
+}
+.fadel{
+  display : flex ;
+  gap : 20px ;
+  border: 10px solid black   ;
+  margin: 0  auto ;
+  width :70% ;
+}
+.text3{
+  font-size : 25px ; 
+  color :black ; 
+}
+.body4{
+  background-color :lavender ; 
+}
+.mo{
+  display : flex ;
+  gap : 20px ;
+  border: 10px solid black   ;
+  margin: 0  auto ;
+  width :70% ;
+}
+.text4{
+  font-size : 25px ; 
+  color :black ; 
+}
+.body5{
+  background-color :palegoldenrod ; 
+}
+.naji{
+  display : flex ;
+  gap : 20px ;
+  border: 10px solid black   ;
+  margin: 0  auto ;
+  width :70% ;
+}
+.text5{
+  font-size : 25px ; 
+  color :black ; 
+}
+
