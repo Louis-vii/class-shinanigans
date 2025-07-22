@@ -1,13 +1,27 @@
 import java.util.*;
 
 public class dice {
+
     public static void main(String args[]) {
-
+        Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-        int x = random.nextInt(1, 7);
+        int x = 0;
+        System.out.println("how many rolls");
+        int y = scanner.nextInt();
+        scanner.nextLine();
 
-        System.out.println("you rolled a ");
-        roll(x);
+        if (y > 6) {
+            System.out.println("nah you gotta be crazy twin cause no one is doing allat");
+            System.exit(0);
+        }
+
+        System.out.println("you rolled ");
+
+        for (int i = 1; i <= y; i++) {
+            x = random.nextInt(1, 7);
+            roll(x);
+            System.out.println();
+        }
 
     }
 
@@ -15,44 +29,38 @@ public class dice {
 
         switch (x) {
             case 1:
-                System.out.println("""
+                System.out.print("""
 
                         +-------+
                         |       |
                         |   •   |
                         |       |
                         +-------+
-
-
                               """);
 
                 break;
             case 2:
-                System.out.println("""
+                System.out.print("""
 
                         +-------+
                         | •     |
                         |       |
                         |     • |
                         +-------+
-
-
                               """);
                 break;
             case 3:
-                System.out.println("""
-
+                System.out.print("""
 
                         +-------+
                         | •     |
                         |   •   |
                         |     • |
                         +-------+
-
                               """);
                 break;
             case 4:
-                System.out.println("""
+                System.out.print("""
 
                         +-------+
                         | •   • |
@@ -63,7 +71,7 @@ public class dice {
                 break;
 
             case 5:
-                System.out.println("""
+                System.out.print("""
 
                         +-------+
                         | •   • |
@@ -74,7 +82,7 @@ public class dice {
                 break;
 
             case 6:
-                System.out.println("""
+                System.out.print("""
 
                         +-------+
                         | •   • |
@@ -85,7 +93,7 @@ public class dice {
                 break;
 
             default:
-                System.out.println("balls");
+                System.out.print("balls");
                 break;
         }
 
