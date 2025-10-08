@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqy6nltw5cpfy"
-path="res://.godot/imported/coin.png-c8309bf0f8fb5f3a7d1e96a4eb3f02ce.ctex"
+uid="uid://caggr7r0dq6xa"
+path="res://.godot/imported/16x16 Walk Cycle-Sheet.png-86ca6fd6b2a1ece92a14e322f14c704b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/coin.png"
-dest_files=["res://.godot/imported/coin.png-c8309bf0f8fb5f3a7d1e96a4eb3f02ce.ctex"]
+source_file="res://assets/ErisEsra's Character Templates/16x16 Walk Cycle-Sheet.png"
+dest_files=["res://.godot/imported/16x16 Walk Cycle-Sheet.png-86ca6fd6b2a1ece92a14e322f14c704b.ctex"]
 
 [params]
 
