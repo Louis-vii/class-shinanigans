@@ -1,3 +1,5 @@
+package src;
+
 import javax.swing.*;
 public class gayblackman {
     public static void main(String[] args) {
